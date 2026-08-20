@@ -1,0 +1,275 @@
+/* ==================================================
+   MOBILE
+   <= 768px
+   ================================================== */
+
+.banner {
+  height: 250px;
+}
+
+.banner-text {
+  width: 100%;
+}
+
+.banner-text h1 {
+  font-size: 22px;
+}
+
+.banner-text p {
+  font-size: 11px;
+}
+
+/* ==================== NAVBAR ==================== */
+
+.nav-container {
+  width: 100%;
+  height: auto;
+
+  display: block;
+  padding: 0;
+}
+
+.nav-container > a {
+  height: 45px;
+
+  border-left: none;
+  border-bottom: 1px solid #eee;
+
+  font-size: 10px;
+}
+
+.nav-name {
+  display: none;
+}
+
+/* ==================== INFO ==================== */
+
+.info {
+  width: 100%;
+
+  grid-template-columns: 1fr;
+}
+
+.career,
+.personal {
+  min-height: auto;
+
+  padding: 30px 20px;
+}
+
+.info h2 {
+  font-size: 18px;
+
+  margin-bottom: 20px;
+}
+
+.career p {
+  font-size: 11px;
+}
+
+.personal-info p {
+  font-size: 10px;
+}
+
+.personal-info strong {
+  width: 90px;
+}
+
+/* ==================== EMAIL ==================== */
+
+.email-form input {
+  font-size: 11px;
+}
+
+.email-form button {
+  font-size: 10px;
+}
+
+/* ==================== CAREER ==================== */
+
+.career-section {
+  padding: 25px 0;
+}
+
+.career-grid {
+  width: auto;
+  margin: 0 15px;
+
+  grid-template-columns: 1fr;
+
+  gap: 15px;
+}
+
+.card {
+  min-height: auto;
+
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+.card-title h2 {
+  font-size: 17px;
+}
+
+.card-title span {
+  font-size: 20px;
+}
+
+.toggle-btn {
+  font-size: 9px;
+
+  padding: 5px 10px;
+}
+
+.timeline li {
+  margin-bottom: 20px;
+}
+
+.timeline strong {
+  font-size: 11px;
+}
+
+.timeline small {
+  font-size: 10px;
+}
+
+.timeline p {
+  font-size: 9px;
+}
+
+/* ==================== HOBBIES ==================== */
+
+.hobbies {
+  margin-top: 20px;
+
+  gap: 10px;
+}
+
+.hobbies span {
+  width: 40px;
+  height: 40px;
+
+  font-size: 16px;
+}
+
+.hobbies p {
+  font-size: 9px;
+}
+
+/* ==================== SKILLS ==================== */
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill p {
+  font-size: 10px;
+}
+
+/* ==================== CERTIFICATE ==================== */
+
+.certificate {
+  padding: 30px 0;
+}
+
+.container {
+  width: auto;
+
+  margin: 0 15px;
+}
+
+.container > h2 {
+  font-size: 18px;
+
+  margin-bottom: 20px;
+}
+
+.certificate-grid {
+  grid-template-columns: 1fr;
+
+  gap: 0;
+}
+
+.certificate-item {
+  width: 100%;
+
+  gap: 15px;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.certificate-item:first-child {
+  padding-top: 0;
+}
+
+.certificate-item img {
+  width: 120px;
+  height: 75px;
+
+  flex-shrink: 0;
+}
+
+.certificate-item h3 {
+  font-size: 10px;
+}
+
+.certificate-item p {
+  font-size: 9px;
+}
+
+/* ==================== PROJECT ==================== */
+
+.project {
+  padding: 30px 0;
+}
+
+.project-grid {
+  grid-template-columns: 1fr;
+
+  gap: 15px;
+}
+
+.project-card > img {
+  height: 180px;
+}
+
+.project-card h3 {
+  font-size: 11px;
+}
+
+.project-info {
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  font-size: 9px;
+}
+
+.project-row {
+  grid-template-columns: 60px 1fr;
+
+  font-size: 9px;
+}
+
+/* ==================== FOOTER ==================== */
+
+footer {
+  padding: 25px 15px;
+}
+
+.footer-content {
+  width: 100%;
+
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.footer-content a {
+  font-size: 10px;
+}
